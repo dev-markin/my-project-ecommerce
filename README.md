@@ -36,14 +36,23 @@ Para este projeto, foram adotadas as seguintes diretrizes de arquitetura e desen
 *Passos para executar:*
 
 ```bash
-# 1️⃣ Navegue até a pasta do backend
+# 1️ Navegue até a pasta do backend
 cd backend
 
-# 2️⃣ Instale as dependências
+# 2️ Instale as dependências
 npm install
 
-# 3️⃣ Execute as migrações do banco de dados
+# 3️ Execute as migrações do banco de dados
 npx prisma migrate dev --name init
 
-# 4️⃣ Inicie o servidor em modo desenvolvimento
+# 4️ Inicie o servidor em modo desenvolvimento
 npm run start:dev
+
+# 5 Navegue até a pasta do frontend
+cd frontend
+
+# 6 Instale as dependências
+npm install
+
+# 7 Inicie o servidor em modo desenvolvimento
+npm start
